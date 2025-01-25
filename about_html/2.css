@@ -1,0 +1,49 @@
+.nima{
+    display: inline-block;
+    margin: 0;
+}
+.bir{
+    width: 150px;
+}
+.ikki{
+    width: 150px;
+    background-color: #F3E9DC;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-family: sans-serif;
+    
+}
+h1{
+    font-size: 40px;
+    font-weight: bolder;
+    
+}
+body{
+    background: linear-gradient(135deg, #F093FB, #F5576C);
+    
+}
+.about{
+    display: inline-flex;
+    border: 5px dotted;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    width: 200px;
+    height: 240px;
+}
+li:hover {
+    cursor: pointer;
+    font-size: larger;
+}
+
+b{
+margin: 0;
+opacity: 0;
+}
+li:hover b{
+    opacity: 0.9;
+}
